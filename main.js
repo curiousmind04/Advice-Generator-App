@@ -32,5 +32,5 @@ const rotate = () => {
 
 dice.addEventListener("click", () => {
   generateAdvice();
-  //   rotate();
+  rotate();
 });

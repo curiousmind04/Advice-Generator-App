@@ -61,6 +61,7 @@ p {
   bottom: -32px;
   left: 140.5px;
   cursor: pointer;
+  border: none;
 }
 
 .dice-container:hover {
