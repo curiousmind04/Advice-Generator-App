@@ -22,4 +22,23 @@ const generateAdvice = async () => {
   advice.innerHTML = adviceText;
 };
 
-dice.addEventListener("click", generateAdvice);
+let rotate = 360;
+
+dice.addEventListener("click", () => {
+  generateAdvice();
+  dice.style.transform = `rotate(${rotate}deg)`;
+  dice.style.transition = "0.5s ease-in-out";
+  rotate += 360;
+});
+
+var mobileHover = function () {
+  $("*")
+    .on("touchstart", function () {
+      $(this).trigger("hover");
+    })
+    .on("touchend", function () {
+      $(this).trigger("hover");
+    });
+};
+
+mobileHover();
