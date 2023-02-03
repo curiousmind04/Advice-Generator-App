@@ -22,17 +22,6 @@ const generateAdvice = async () => {
   advice.innerHTML = adviceText;
 };
 
-var mobileHover = function () {
-  dice.addEventListener("touchstart", () => {
-    dice.trigger("hover");
-  });
-  dice.addEventListener("touchend", () => {
-    dice.trigger("hover");
-  });
-};
-
-mobileHover();
-
 let rotate = 360;
 
 dice.addEventListener("click", () => {

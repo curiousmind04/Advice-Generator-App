@@ -63,6 +63,10 @@ p {
   cursor: pointer;
 }
 
+.dice-container:hover {
+  box-shadow: 0 0 40px #52ffa8;
+}
+
 @media (min-width: 38.75rem) {
   .container {
     width: 33.75rem;
