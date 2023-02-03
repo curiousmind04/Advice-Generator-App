@@ -22,12 +22,12 @@ const generateAdvice = async () => {
   advice.innerHTML = adviceText;
 };
 
-let rotateDeg = 360;
+let rotateDeg = 20;
 
 const rotate = () => {
   dice.style.transform = `rotate(${rotateDeg}deg)`;
   dice.style.transition = "0.5s ease-in-out";
-  rotateDeg += 360;
+  rotateDeg += 20;
 };
 
 dice.addEventListener("click", () => {
