@@ -62,12 +62,8 @@ p {
   left: 140.5px;
   cursor: pointer;
   border: none;
-  transition: 0.5s ease-in;
+  /* transition: 0.5s ease-in; */
 }
-
-/* .dice-container:hover {
-  box-shadow: 0 0 40px #52ffa8;
-} */
 
 @media (hover: hover) {
   .dice-container:hover {
@@ -98,8 +94,4 @@ p {
   .dice-container {
     left: 238px;
   }
-
-  /* .dice-container:hover {
-    box-shadow: 0 0 40px #52ffa8;
-  } */
 }
