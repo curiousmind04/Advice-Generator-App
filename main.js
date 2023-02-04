@@ -25,8 +25,8 @@ const generateAdvice = async () => {
 let rotateDeg = 140;
 
 const rotate = () => {
+  dice.style.transition = "0.5s ease-in";
   dice.style.transform = `rotate(${rotateDeg}deg)`;
-  dice.style.transition = "1.5s ease-in";
   rotateDeg += 140;
 };
 
