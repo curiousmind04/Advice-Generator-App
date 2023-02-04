@@ -62,6 +62,7 @@ p {
   left: 140.5px;
   cursor: pointer;
   border: none;
+  outline: none;
 }
 
 @media (hover: hover) {
