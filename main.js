@@ -1,4 +1,5 @@
-const dice = document.querySelector(".dice-container");
+const diceContainer = document.querySelector(".dice-container");
+const dice = document.querySelector(".dice");
 const number = document.querySelector(".advice-number");
 const advice = document.querySelector(".advice-text");
 
@@ -30,7 +31,7 @@ const rotate = () => {
   rotateDeg += 360;
 };
 
-dice.addEventListener("click", () => {
+diceContainer.addEventListener("click", () => {
   generateAdvice();
   rotate();
 });
